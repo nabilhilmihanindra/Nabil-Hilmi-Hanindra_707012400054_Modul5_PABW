@@ -6,6 +6,10 @@ class HomeController extends Controller{
 public function dashboard(){
 return view('dashboard');
 }
+public function profile()
+    {
+        return view('profile');
+    }
 public function buatlaporan(){
 return view('buatlaporan');
 }
